@@ -1,6 +1,6 @@
 # Moralis Web3 API - MCP
 
-[![CircleCI](https://img.shields.io/circleci/build/github/a6b8/multiThreadz/main)]() ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 A Model Context Protocol (MCP) server implementation for interacting with the Moralis Web3 API, providing access to blockchain data across multiple networks through a structured API interface.
 
