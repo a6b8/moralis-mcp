@@ -1,7 +1,6 @@
-// diese datei erstellt eine object struktur die hilft visduell funktionen zu enable. 
-
-
 import fs from 'fs'
+
+
 const raw = fs.readFileSync( './src/data/moralis-endpoints.json', 'utf-8' )
 const json = JSON.parse( raw )
 
@@ -19,5 +18,6 @@ const test = json
     }, {} )
 
 fs.writeFileSync( 
-    './src/data/active-endpoints-new.json', JSON.stringify( test, null, 4 ) 
+    './src/data/active-endpoints-new.json', 
+    JSON.stringify( test, null, 4 ) 
 )
