@@ -31,7 +31,7 @@ To use this server with Claude, add the following configuration to your Claude c
     "crypto-moralis": {
       "command": "node",
       "args": [
-        "...yourpath-to-the-folder/moralis-mcp-server"
+        "...yourpath-to-the-folder/moralis-mcp"
       ],
       "env": {
         "MORALIS_API_KEY": "YOUR_API_KEY_HERE"
